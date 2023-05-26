@@ -1,0 +1,13 @@
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/generals";
+
+// Componentes
+@import './components/header';
+@import './components/school';
+@import "./components/benefits";
+@import "./components/logo";
+@import './components/lectures';
+@import './components/ratings';
+@import "./components/prices";
+@import "./components/footer";

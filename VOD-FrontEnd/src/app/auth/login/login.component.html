@@ -1,0 +1,80 @@
+<!-- <div class="login-bg img-pos container-fluid h-100 d-flex align-items-center white-bg">
+
+</div> -->
+<div class="container">
+    <div class="left-side">
+        <p>---------------------------------------xxxxxxxxxxxxxx</p>
+
+    </div>
+    <div class="rightside">
+        <div class="form-container">
+            <mat-card>
+                <img mat-card-image src="../../../assets/images/VoDLogo.png" width="160" alt="" />
+                <mat-card-subtitle class="venio-version">v{{ venioVersion }}</mat-card-subtitle>
+                <mat-card-content>
+                    <form [formGroup]="loginForm">
+                        <mat-form-field class="form-element" >
+                            <mat-icon matPrefix color="primary"><i class="fa fa-user"></i></mat-icon>
+                            <!-- <mat-label>Email</mat-label> -->
+                            <input matInput formControlName="email" placeholder="Email" required>
+                        </mat-form-field>
+    
+                        <mat-form-field class="form-element">
+                            <mat-icon matPrefix><i class="fa fa-lock"></i></mat-icon>
+                            <mat-icon matSuffix>visibility_off</mat-icon>
+                            <input matInput formControlName="password" placeholder="Password" required>
+                        </mat-form-field>
+    
+                        <mat-checkbox formControlName="remember" class="full-width">Rememeber me</mat-checkbox>
+                        <mat-card-actions>
+                            <button mat-raised-button color="primary" [disabled]="!loginForm.valid" (click)="login()">Login</button>
+                            <button mat-raised-button color="warn" (click)="register()">Register</button>
+                        </mat-card-actions>                
+                    
+                    </form>
+                </mat-card-content>
+             </mat-card>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<!-- <div class="container">
+    <div class="left"></div>
+    <div class="right">
+      <form>
+
+      </form>
+    </div>
+  </div> -->
+
+          <!-- <div class="right">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Log in</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <form [formGroup]="loginForm" class="form-group1">
+                        <mat-form-field class="form-control2" >
+                            <mat-label>Email</mat-label>
+                            <input matInput formControlName="email" placeholder="Email" required>
+                        </mat-form-field>
+    
+                        <mat-form-field class="full-width">
+                            <input matInput formControlName="password" placeholder="Password" required>
+                        </mat-form-field>
+    
+                        <mat-checkbox formControlName="remember" class="full-width">Rememeber me</mat-checkbox>
+                        <mat-card-actions>
+                            <button mat-raised-button color="primary" [disabled]="!loginForm.valid" (click)="login()">Login</button>
+                            <button mat-raised-button color="warn" (click)="register()">Register</button>
+                        </mat-card-actions>                
+                    
+                    </form>
+                </mat-card-content>
+             </mat-card>
+        </div> -->

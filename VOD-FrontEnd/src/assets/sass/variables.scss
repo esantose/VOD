@@ -1,0 +1,6 @@
+@function v($color-name) {
+  // @return var(--#{$color-name});
+  @return rgba(22, 80, 178, 0.6);
+}
+
+// "--login-bg-color": "rgba(22, 80, 178, 0.6)",

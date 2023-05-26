@@ -1,0 +1,7 @@
+@function v($color-name, $fallback: null) {
+  @if ($fallback) {
+    @return var(--#{$color-name}, #{$fallback});
+  } @else {
+    @return var(--#{$color-name});
+  }
+}
